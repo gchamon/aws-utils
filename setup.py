@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -15,14 +15,14 @@ setup(
         "urllib3==1.25.7; python_version >= '3.4'",
     ],
     name="aws-utils",  # Replace with your own username
-    version="0.1.1",
+    version="0.1.2",
     author="Gabriel Chamon Araujo",
     author_email="gabrielchamon@lett.digital",
     description="Contain aws utilities to be shared between projects",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/gchamon/aws-utils",
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
