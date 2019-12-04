@@ -6,11 +6,11 @@ Common aws utilities to be shared between company projects
 
 pipenv:
 
-* `pipenv install -e git+https://github.com/lettdigital/aws-utils.git@master#egg=aws-utils`
+* `pipenv install -e git+https://github.com/lettdigital/aws-utils.git#egg=aws-utils`
 
 pip
 
-* `pip install git+https://github.com/lettdigital/aws-utils.git@master`
+* `pip install git+https://github.com/lettdigital/aws-utils.git`
 
 ## Utilities
 
