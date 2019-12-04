@@ -15,7 +15,7 @@ setup(
         "urllib3==1.25.7; python_version >= '3.4'",
     ],
     name="aws-utils",  # Replace with your own username
-    version="0.1.0",
+    version="0.1.1",
     author="Gabriel Chamon Araujo",
     author_email="gabrielchamon@lett.digital",
     description="Contain aws utilities to be shared between projects",
