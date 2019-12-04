@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setup(
     install_requires=[],
     name="aws-utils",
-    version="1.0.1",
+    version="1.0.2",
     author="Gabriel Chamon Araujo",
     author_email="gabrielchamon@lett.digital",
     description="Contains aws utilities to be shared between projects",
