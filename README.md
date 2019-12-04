@@ -2,9 +2,19 @@
 
 Common aws utilities to be shared between company projects
 
+## Installing
+
+pipenv:
+
+* `pipenv install -e git+https://github.com/lettdigital/aws-utils.git#egg=aws-utils`
+
+pip
+
+* `pip install git+https://github.com/lettdigital/aws-utils.git`
+
 ## Utilities
 
-### secrets
+### AWS Secrets Manager
 
 `aws_utils.secrets.get`
 
@@ -19,7 +29,7 @@ returns:
 
 * A python object deserialized from a valid JSON String
 
-### session
+### Boto3 Session
 
 `aws_utils.session.get_session_from_role`
 
